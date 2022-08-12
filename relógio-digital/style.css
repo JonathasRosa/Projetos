@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+body {
+    background: #081054;
+    color: #d1f30e;
+}
+.clock {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 60px;
+    font-family: orbitron;
+}
+footer {
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
