@@ -19,7 +19,7 @@ html, body{
     font-family: var(--fonte3);
     }
 header{
-    background-color: #1A1840;
+    background-color: #01273D;
     color: #D9D9D9;
     text-align: center;
     font-family: var(--fonte2);
@@ -66,15 +66,12 @@ section.imagem > p {
     text-shadow: 1px 1px 0px black;
 }
 section#img01 {
-    background-image: url(imagens/background001.jpg);
+    background-image: url(imagens/impresso1.png);
     background-position: right center;
     background-size: cover;
 }
-section#img02 {
-    background-image: url(imagens/background002.jpg);
-}
 footer{
-    background-color: #D9D9D9;
+    background-color: #8C6A2B;
     color: #1A1840;
     text-align: center;
     padding: 10px;
