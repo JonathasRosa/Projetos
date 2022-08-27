@@ -10,7 +10,6 @@
 }
 body {
   font-size: 100%;
-  background: linear-gradient(45.15deg, #01273d 16.62%, #AAB9BF 85.61%);
   background-color: #01273d;
   font-family: 'Sarala', sans-serif;
   margin: 12px;
@@ -25,22 +24,28 @@ body {
 }
 .cacalho-texto {
   font-family: 'Righteous', cursive;
-  color: #01273d;
+  color: #AAB9BF;
   font-weight: 400;
   font-size: 18px;
 }
 .cabecalho-img {
   height: 120px;
 }
-.conteudo{
+.conteudo {
+  display: flex;
+  flex-direction: column;
   padding: 12px;
-  border-top: 0.8px solid #01273D;
+  border-top: 0.8px solid #e9edf0;
+  border-bottom: 0.8px solid #e9edf0;
 }
 .conteudo-principal{
   display:flex ;
-  flex-direction:column;
+  flex-direction:row;
   align-items: center;
   justify-content: space-around;
+  padding: 24px;
+  margin: 24px;
+  border-bottom: 0.8px solid #e9edf0;
 }
 .conteudo-principal-escrito {
   display: flex;
@@ -50,19 +55,19 @@ body {
   font-family: 'Righteous', cursive;
   font-weight: 400px;
   font-size: 35px;
-  color: #01273D;
+  color: #AAB9BF;
 }
 .conteudo-principal-img {
   width: 250px;
   margin: 10px;
   border-radius: 50%;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 5px rgba(245, 241, 241, 0.4);
 }
 .conteudo-container1 {
   height: 100%;
   border-radius: 12px;
   padding:24px;
-  box-shadow: rgb(27, 26, 26) 0px 7px 29px 0px;
+  box-shadow: #e9edf0 0px 7px 29px 0px;
   align-items: center;
   gap: 12px;
   margin: 10px;
@@ -73,7 +78,7 @@ body {
   height: 100%;
   border-radius: 12px;
   padding:24px;
-  box-shadow: rgb(27, 26, 26) 0px 7px 29px 0px;
+  box-shadow: #e9edf0 0px 7px 29px 0px;
   align-items: center;
   gap: 12px;
   margin: 10px;
@@ -88,6 +93,7 @@ body {
   
 }
 li {
+  align-items: center;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
@@ -97,10 +103,10 @@ li {
 .botao {
   background-color: #022E40;
   color:#AAB9BF;
-  margin: relative;
+  margin: 12px;
   padding: 12px;
   border: none;
-  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 3px #e9edf0;
   border-radius: 20px;
   font-family: 'Righteous', cursive;
   font-weight: 400;
@@ -118,13 +124,13 @@ text-align: center;
 font-family: 'Righteous', cursive;
 font-weight: 400px;
 font-size: 33px;
-color: #01273D;
+color: #e9edf0;
 border-bottom: 0.8px solid #01273D;
 }
 .imagem-whatsapp {
   width: 80px;
   border-radius: 50%;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 5px #e9edf0;
 }
 p {
   text-align: justify;
@@ -139,6 +145,7 @@ footer {
   height: 200px;
 }
 a {
+  text-align: center;
   font-size: 16px;
   color: #AAB9BF;
 }
