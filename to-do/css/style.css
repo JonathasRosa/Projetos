@@ -130,7 +130,9 @@ input, select {
     text-decoration: line-through;
     font-style: italic;
 }
-footer {
+footer, a {
     text-align: center;
     padding: 10px;
+    text-decoration: none;
+    color:#FFF;
 }
