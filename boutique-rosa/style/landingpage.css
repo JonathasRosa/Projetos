@@ -53,10 +53,17 @@ body {
     color: #FFF2EF;
 }
 .conteudo-principal-escrito-subtitulo {
+    text-align: end;
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color:black;
+}
+.butoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 32px;
 }
 .butão-conteudo-principal {
     background-color: #e72958;
@@ -81,8 +88,15 @@ footer {
     border-top: 0.4px solid #FFF2EF;
 }
 .redes-sociais {
+    height: 60px;
     width: 60px;
     margin: 2px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+footer > p > a {
+    margin-top: 10px;
+    align-items: center;
+    font-size: 16px;
+    color: black;
 }
