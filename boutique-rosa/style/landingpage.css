@@ -5,8 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-
-    
 }
 body {
     background: linear-gradient(71deg, #fec3e2f6 1%, rgba(234, 230, 231, 1) 100%);
@@ -46,7 +44,7 @@ body {
 .conteudo-principal-escrito{
     display: flex;
     flex-direction: column ;
-    gap: 32px;
+    gap: 10px;
 }
 .conteudo-principal-escrito-titulo {
     font-family: 'Righteous', cursive;
@@ -65,31 +63,26 @@ body {
     width: 180px;
     height: 60px;
     border: none;
-    box-shadow: 4px,5px, 4px rgba(0, 0, 0, 0.25) ;
+    box-shadow: 4px,5px, 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #2F2325;
 }
-::-webkit-scrollbar{
-    width: 20px;
-    height: 20px;
-}
-::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom #e72958 #fec3e2f6);
-    border-radius: 50px;
-}
-::-webkit-scrollbar-track {
-    background: #474744;
+.conteudo-principal-imagem {
+    border-radius: 20px;
+    margin: 20px;
+    width: 450px;
+    border-radius: 20px;
 }
 footer {
     margin-bottom: 48px;
     border-top: 0.4px solid #FFF2EF;
 }
 .redes-sociais {
-    width: 50px;
-    margin: 10px;
+    width: 60px;
+    margin: 2px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
 }
