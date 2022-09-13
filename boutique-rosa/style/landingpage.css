@@ -1,4 +1,5 @@
-@import url('https;//fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
 
 * {
     margin: 0;
@@ -47,10 +48,10 @@ body {
     gap: 10px;
 }
 .conteudo-principal-escrito-titulo {
-    font-family: 'Righteous', cursive;
+    font-family: 'Smooch', cursive;
     font-weight: 400;
-    font-size: 64px;
-    color: #FFF2EF;
+    font-size: 84px;
+    color: #e72958;
 }
 .conteudo-principal-escrito-subtitulo {
     text-align: end;
@@ -94,9 +95,11 @@ footer {
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
 }
-footer > p > a {
-    margin-top: 10px;
-    align-items: center;
+ footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-top: 10px;
     font-size: 16px;
     color: black;
 }
