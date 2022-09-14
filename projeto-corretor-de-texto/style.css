@@ -63,6 +63,7 @@ body {
 }
 ul{
   margin: 12px;
+  list-style: none;
 }
 li {
   text-align: left;

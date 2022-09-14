@@ -9,6 +9,7 @@
 }
 body {
     background: linear-gradient(71deg, #fec3e2f6 1%, rgba(234, 230, 231, 1) 100%);  
+    background-repeat: no-repeat;
 }
 .cabecalho {
     display: flex;
