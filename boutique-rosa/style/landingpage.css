@@ -10,6 +10,8 @@
 body {
     background: linear-gradient(71deg, #fec3e2f6 1%, rgba(234, 230, 231, 1) 100%);  
     background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
 }
 .cabecalho {
     display: flex;
@@ -17,14 +19,13 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 10px;
-
 }
 .cacalho--imagem {
     height: 72px;
 }
 .cabecalho-menu {
     display: flex;
-    gap: 32px;
+    gap: 12px;
 }
 .cabecalho-menu-item {
     font-family: 'Sarala', sans-serif;
@@ -35,8 +36,9 @@ body {
 .conteudo {
     margin-bottom: 48px;
     border-top: 0.4px solid #FFF2EF;
+    height: 100vh;
+    width: 100vw;
 }
-
 .conteudo-principal {
     display: flex;
     flex-direction: row;
@@ -85,10 +87,6 @@ body {
     width: 450px;
     border-radius: 20px;
 }
-footer {
-    margin-bottom: 48px;
-    border-top: 0.4px solid #FFF2EF;
-}
 .redes-sociais {
     height: 60px;
     width: 60px;
@@ -103,4 +101,6 @@ footer {
     padding-top: 10px;
     font-size: 16px;
     color: black;
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2EF;
 }
