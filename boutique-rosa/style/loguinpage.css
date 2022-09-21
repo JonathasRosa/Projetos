@@ -23,7 +23,6 @@ section#login {
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
     width: 250px;
@@ -32,6 +31,7 @@ section#login {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
     transition: width .3s, heigth .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 section#login > div#imagem {
     display: block;
@@ -124,9 +124,4 @@ form > a.botao:hover{
 form > a.botao > span {
     font-size: 2em;
      width: 40px;
-}
-.cabacalho-imagem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
