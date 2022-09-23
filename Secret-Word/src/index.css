@@ -11,6 +11,7 @@ body{
     rgb(81, 9, 175)0%, 
     rgba(0,0,0,1)100%
     );
+    background-repeat: no-repeat;
   color: #fff;
 }
 
