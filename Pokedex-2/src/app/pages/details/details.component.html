@@ -1,6 +1,5 @@
 <!-- Header -->
 <poke-header></poke-header>
-
 <main>
     <ng-template [ngIf]="isLoading">
         <section class="pokemon__names">
@@ -8,10 +7,7 @@
             <h2 class="slideInRight">{{pokemon[1].names[0].name}}</h2>
         </section>
         <section class="pokemon__status">
-            <img 
-            [src]="pokemon[0].sprites.other.dream_world.front_default" 
-            [alt]="pokemon[0].name" 
-            class="slideInDown">
+            <img [src]="pokemon[0].sprites.other.dream_world.front_default" [alt]="pokemon[0].name" class="slideInDown">
             <article class="pokemon__status__statistics fadeIn">
                 <section>
                     <h3>Estatísticas</h3>
@@ -30,9 +26,5 @@
             </article>
         </section>
     </ng-template>
-    <img 
-    src="assets/img/error.png" 
-    alt="Deu erro na busca do pokemon" 
-    width="100%" 
-    *ngIf="apiError">
+    <img src="assets/error.png" alt="Deu erro na mostragem do pokemon" width="100%" *ngIf="apiError">
 </main>

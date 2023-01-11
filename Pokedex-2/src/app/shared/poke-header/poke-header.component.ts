@@ -8,9 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class PokeHeaderComponent implements OnInit {
 
   constructor() { }
-  
+
   ngOnInit(): void {
-    
   }
 
 }
